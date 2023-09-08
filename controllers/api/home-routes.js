@@ -23,4 +23,18 @@ router.get('/', (req, res) => {
               include: [User],
             },
           ],
-     }};
+        };
+
+     .then((dbPostData) => {
+        if (dbPostData) {
+          const post = dbPostData.get({ plain: true });
+  
+          res.render("single-post", { post });
+        } else {
+          res.status(404).end();
+        }
+      })
+      .catch((err) => {
+        res.status(500).json(err);
+      });
+  });

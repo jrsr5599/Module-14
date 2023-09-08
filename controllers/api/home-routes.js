@@ -13,3 +13,14 @@ router.get('/', (req, res) => {
            res.status(500).json(err);
          });
      });
+
+     router.get("/post/:id", (req, res) => {
+        Post.findByPk(req.params.id, {
+          include: [
+            User,
+            {
+              model: Comment,
+              include: [User],
+            },
+          ],
+     }};

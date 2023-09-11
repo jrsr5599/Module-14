@@ -123,3 +123,30 @@
       .hero p {
         max-width: 75%;
       }
+
+      .app-title {
+        font-size: 3rem;
+        background-color: var(--first);
+        color: var(--fifth);
+        padding: 0 10px;
+        display: inline-block;
+        border-radius: var(--border-radius);
+        box-shadow: 6px 5px var(--fourth);
+      }
+      
+      .app-title a {
+        color: var(--fifth);
+      }
+      
+      .list-group {
+        padding: 1%;
+      }
+      
+      .list-item {
+        margin-bottom: 10px;
+        padding: 1.5%;
+        border-radius: var(--border-radius);
+        background-color: var(--fourth);
+        color: var(--first);
+        text-decoration: none;
+      }

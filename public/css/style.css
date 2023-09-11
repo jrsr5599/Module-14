@@ -27,3 +27,99 @@
       color: var(--fifth);
       line-height: 1.25;
     }
+
+    h2 a:visited {
+        color: var(--third);
+      }
+      
+      h2 a {
+        color: var(--first);
+      }
+      
+      header {
+        margin-top: 50px;
+      }
+      
+      main {
+        margin: 20px auto;
+        width: 94%;
+      }
+      
+      a {
+        text-decoration: none;
+      }
+        
+      p {
+        font-size: 1.5rem;
+      }
+      
+      footer p {
+        color: var(--third);
+      }
+      
+      input {
+        width: 100%;
+        border: 1px solid #ccc;
+        background: #FFF;
+        margin: 0 0 5px;
+        padding: 10px;
+      }
+      
+      .card-header h2 {
+      color: var(--first);
+      }
+      
+      .btn {
+      font-size: 1.3rem;
+      text-decoration: none;
+      padding: 6px 5px;
+      width: 100%;
+      display: block;
+      margin: 5px 0;
+      border-radius: var(--border-radius);
+      color: var(--first);
+      border: none;
+      outline: none;
+      background-color: var(--fourth);
+      box-shadow: 3px 3px var(--fifth);
+      transform: translate(-1px, -1px);
+      }
+      
+      .btn:hover {
+        color: var(--first);
+        background-color: var(--third);
+        transform: translate(0, 0);
+        box-shadow: 2px 2px var(--fifth);
+      }
+      
+      .btn-inline {
+        display: inline;
+      }
+      
+      .li-inline {
+        display: inline;
+      }
+      
+      .navbar {
+        width: 100%;
+        position: fixed;
+        background-color: var(--fifth);
+      }
+      
+      .nav-item {
+        margin: 0 40px;
+      }
+      
+      .nav-item a {
+        color: var(--first);
+      }
+      
+      .hero {
+        padding: 3% 4%;
+        background-color: var(--fifth);
+        color: var(--first);
+      }
+      
+      .hero p {
+        max-width: 75%;
+      }

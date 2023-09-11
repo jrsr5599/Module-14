@@ -150,3 +150,114 @@
         color: var(--first);
         text-decoration: none;
       }
+
+      .list-item:hover {
+        background-color: var(--fifth);
+      }
+      
+      .footer a {
+        display: inline-block;
+        padding: 1em;
+        margin-bottom: .5em;
+        background-color: var(--fifth);
+        color: var(--primary);
+        border-radius: var(--border-radius);
+        text-decoration: none;
+      }
+      
+      /* CARDS */
+      .card {
+        margin: 0 0 20px 0;
+        border: 3px solid var(--fifth);
+        border-radius: var(--border-radius);
+      }
+      
+      .card-header {
+        color: var(--primary);
+        background-color: var(--fifth);
+        padding: 1%;
+        border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+      }
+      
+      .card-body {
+        padding: 1%;
+      }
+      
+      /* FORM */
+      .form-label,
+      .form-input,
+      .form-textarea {
+        display: block;
+      }
+      
+      .form-label {
+        font-size: 1.1rem;
+        margin: 0 0 0 5px;
+      }
+      
+      .form-input {
+        width: 100%;
+        padding: 1%;
+        margin: 5px 0;
+        font-size: 1.2rem;
+        border: 2px solid var(--fourth);
+        border-radius: var(--border-radius);
+      }
+      
+      /* HEIGHT / WIDTH UTILS */
+      .min-100-vh {
+        min-height: 100vh;
+      }
+      
+      .min-100-vw {
+        min-width: 100vw;
+      }
+      
+      /* FONT UTILS */
+      .text-uppercase {
+        text-transform: uppercase;
+      }
+      
+      /* FLEX CONTENT */
+      .flex-row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .flex-column {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      
+      .justify-space-between {
+        justify-content: space-between;
+      }
+      
+      .justify-space-around {
+        justify-content: space-around;
+      }
+      
+      .justify-flex-start {
+        justify-content: flex-start;
+      }
+      
+      .justify-flex-end {
+        justify-content: flex-end;
+      }
+      
+      .justify-center {
+        justify-content: center;
+      }
+      
+      .align-stretch {
+        align-items: stretch;
+      }
+      
+      .align-end {
+        align-items: flex-end;
+      }
+      
+      .align-center {
+        align-items: center;
+      }
